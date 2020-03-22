@@ -14,7 +14,10 @@ void func(unsigned short a, unsigned short b)
 
 
 int main(void) {
+
   printf("%lu short %lu int\n", sizeof(short)*CHAR_BIT, sizeof(int)*CHAR_BIT);
+  
   func(65535, 65535);
+  
   return 0;
 }
